@@ -1,0 +1,53 @@
+2013-04-16   0.6.0:
+-------------------
+  * add ability to specify clauses as objects which support the iterator
+    protocol
+  * added a Python 3 version of the 8 queens example which demonstrates
+    the usefulness of the "yield from" statement
+
+
+2013-04-09   0.5.0:
+-------------------
+  * add Python 2.5 support
+  * add module docstring
+  * add 8 queens problem as an example
+
+
+2013-04-01   0.4.2:
+-------------------
+  * fixed types in readme
+  * add SAT-based Sudoku solver as an example
+  * add docstings to solve and itersolve
+  * add test for clauses containing type long literals on Python 2
+
+
+2013-03-28   0.4.1:
+-------------------
+  * add documentation
+  * added more tests
+  * add error handling for memory management
+
+
+2013-03-27   0.4.0:
+-------------------
+  * allow keyword arguments to pycosat.solve and pycosat.itersolve
+  * add ability to set propagation limit
+  * fixed some bugs which were causing segfaults
+
+
+2013-03-26   0.3.0:
+-------------------
+  * add solution iterator (pycosat.itersolve)
+  * make number of variables optional argument
+
+
+2013-03-25   0.2.0:
+-------------------
+  * fixed MSVC compiler problems
+  * use Python memory manager in picosat
+  * release GIL during main picosat computation
+
+
+2013-03-24   0.1.0:
+-------------------
+  * initial pre-alpha release
